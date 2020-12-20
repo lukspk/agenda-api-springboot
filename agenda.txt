@@ -1,0 +1,15 @@
+CREATE DATABASE agenda;
+use agenda;
+CREATE TABLE `contatos` (
+  `id` integer(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `sex` char(1) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
+
+INSERT INTO agenda.contatos (name, email, sex, phone) VALUES('Pessoa 1', 'pessoa1@@gmail.com', 'M', '(92) 93413-4123');
+
+select * from contatos;
