@@ -16,11 +16,6 @@ Importe e execute o Projeto em uma IDE Java (Class AgendaAPIApplication)
 ```
 ##### Banco de Dados usado nome: Agenda
 
-### Instalar Dependẽncias
-```
-npm install
-```
-
 ### Rotas
 ```
 Listar Todos - GET: http://localhost:9000/api/v1/contacts/
